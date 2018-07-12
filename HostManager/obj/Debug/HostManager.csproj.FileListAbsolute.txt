@@ -1,0 +1,12 @@
+C:\Work\NonWebProjects\HostManager\HostManager\bin\Debug\HostManager.exe
+C:\Work\NonWebProjects\HostManager\HostManager\bin\Debug\HostManager.pdb
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Debug\HostManager.frmHostFileManager.resources
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Debug\HostManager.Properties.Resources.resources
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Debug\HostManager.csproj.GenerateResource.Cache
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Debug\HostManager.exe
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Debug\HostManager.pdb
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Debug\HostManager.InputDialog.resources
+C:\Work\NonWebProjects\HostManager\HostManager\bin\Debug\HostManager.exe.config
+D:\Work\NonWebProjects\HostManager\HostManager\bin\Debug\HostManager.exe.config
+D:\Work\NonWebProjects\HostManager\HostManager\obj\Debug\HostManager.exe
+D:\Work\NonWebProjects\HostManager\HostManager\obj\Debug\HostManager.pdb

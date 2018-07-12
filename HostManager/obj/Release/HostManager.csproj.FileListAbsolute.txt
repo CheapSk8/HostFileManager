@@ -1,0 +1,13 @@
+C:\Work\NonWebProjects\HostManager\HostManager\bin\Release\HostManager.exe.config
+C:\Work\NonWebProjects\HostManager\HostManager\bin\Release\HostManager.exe
+C:\Work\NonWebProjects\HostManager\HostManager\bin\Release\HostManager.pdb
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Release\HostManager.frmHostFileManager.resources
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Release\HostManager.InputDialog.resources
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Release\HostManager.Properties.Resources.resources
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Release\HostManager.Properties.Resources-old.resources
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Release\HostManager.Settings.resources
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Release\HostManager.csproj.GenerateResource.Cache
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Release\HostManager.exe
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Release\HostManager.pdb
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Release\HostManager.csprojResolveAssemblyReference.cache
+C:\Work\NonWebProjects\HostManager\HostManager\obj\Release\HostManager.MessageBoxForm.resources
