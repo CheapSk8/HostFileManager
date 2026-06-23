@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHostFileManager));
             this.pnlHostsText = new System.Windows.Forms.Panel();
             this.lnkReloadTest = new System.Windows.Forms.LinkLabel();
             this.lnkEditHostList = new System.Windows.Forms.LinkLabel();
@@ -37,7 +36,6 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.pnlToolBar = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnSettings = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnExport = new System.Windows.Forms.Button();
@@ -89,7 +87,7 @@
             this.lnkReloadTest.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(132)))), ((int)(((byte)(178)))));
             this.lnkReloadTest.Location = new System.Drawing.Point(13, 424);
             this.lnkReloadTest.Name = "lnkReloadTest";
-            this.lnkReloadTest.Size = new System.Drawing.Size(122, 14);
+            this.lnkReloadTest.Size = new System.Drawing.Size(155, 16);
             this.lnkReloadTest.TabIndex = 7;
             this.lnkReloadTest.TabStop = true;
             this.lnkReloadTest.Text = "Reload from Host file";
@@ -104,7 +102,7 @@
             this.lnkEditHostList.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(153)))), ((int)(((byte)(83)))));
             this.lnkEditHostList.Location = new System.Drawing.Point(390, 424);
             this.lnkEditHostList.Name = "lnkEditHostList";
-            this.lnkEditHostList.Size = new System.Drawing.Size(119, 14);
+            this.lnkEditHostList.Size = new System.Drawing.Size(150, 16);
             this.lnkEditHostList.TabIndex = 5;
             this.lnkEditHostList.TabStop = true;
             this.lnkEditHostList.Text = "Edit list of mappings";
@@ -130,9 +128,7 @@
             // 
             // pnlToolBar
             // 
-            this.pnlToolBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(208)))), ((int)(((byte)(233)))));
-            this.pnlToolBar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnlToolBar.Controls.Add(this.button1);
+            this.pnlToolBar.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pnlToolBar.Controls.Add(this.btnSettings);
             this.pnlToolBar.Controls.Add(this.btnExit);
             this.pnlToolBar.Controls.Add(this.btnExport);
@@ -144,32 +140,22 @@
             this.pnlToolBar.Size = new System.Drawing.Size(525, 58);
             this.pnlToolBar.TabIndex = 10;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(249, 18);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // btnSettings
             // 
             this.btnSettings.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSettings.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnSettings.BackColor = System.Drawing.Color.Transparent;
             this.btnSettings.BackgroundImage = global::HostManager.Properties.Resources.Settings_80;
             this.btnSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSettings.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(152)))), ((int)(((byte)(100)))));
-            this.btnSettings.FlatAppearance.BorderSize = 20;
+            this.btnSettings.FlatAppearance.BorderSize = 3;
             this.btnSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(152)))), ((int)(((byte)(100)))));
             this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSettings.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnSettings.Location = new System.Drawing.Point(143, 3);
+            this.btnSettings.Location = new System.Drawing.Point(147, 7);
             this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(45, 50);
+            this.btnSettings.Size = new System.Drawing.Size(27, 30);
             this.btnSettings.TabIndex = 10;
             this.toolTip1.SetToolTip(this.btnSettings, "Set Hosts");
             this.btnSettings.UseVisualStyleBackColor = false;
@@ -178,17 +164,17 @@
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnExit.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.BackgroundImage = global::HostManager.Properties.Resources.Exit_80;
             this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.btnExit.FlatAppearance.BorderSize = 6;
+            this.btnExit.FlatAppearance.BorderSize = 3;
             this.btnExit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExit.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(464, 3);
+            this.btnExit.Location = new System.Drawing.Point(468, 7);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(45, 50);
             this.btnExit.TabIndex = 1;
@@ -199,18 +185,18 @@
             // btnExport
             // 
             this.btnExport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExport.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnExport.BackColor = System.Drawing.Color.Transparent;
             this.btnExport.BackgroundImage = global::HostManager.Properties.Resources.Export3_80;
             this.btnExport.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnExport.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExport.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
-            this.btnExport.FlatAppearance.BorderSize = 2;
+            this.btnExport.FlatAppearance.BorderSize = 3;
             this.btnExport.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExport.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExport.ForeColor = System.Drawing.Color.White;
-            this.btnExport.Location = new System.Drawing.Point(78, 3);
+            this.btnExport.Location = new System.Drawing.Point(82, 7);
             this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(45, 50);
+            this.btnExport.Size = new System.Drawing.Size(27, 30);
             this.btnExport.TabIndex = 9;
             this.btnExport.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.toolTip1.SetToolTip(this.btnExport, "Export Mappings");
@@ -220,17 +206,17 @@
             // btnSave
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSave.BackColor = System.Drawing.Color.Transparent;
             this.btnSave.BackgroundImage = global::HostManager.Properties.Resources.Save_80;
             this.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(152)))), ((int)(((byte)(100)))));
-            this.btnSave.FlatAppearance.BorderSize = 20;
+            this.btnSave.FlatAppearance.BorderSize = 3;
             this.btnSave.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(152)))), ((int)(((byte)(100)))));
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSave.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(94)))), ((int)(((byte)(33)))));
-            this.btnSave.Location = new System.Drawing.Point(399, 3);
+            this.btnSave.Location = new System.Drawing.Point(403, 7);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(45, 50);
             this.btnSave.TabIndex = 3;
@@ -241,16 +227,16 @@
             // btnImport
             // 
             this.btnImport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnImport.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnImport.BackColor = System.Drawing.Color.Transparent;
             this.btnImport.BackgroundImage = global::HostManager.Properties.Resources.Import3b_80;
             this.btnImport.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnImport.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnImport.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
-            this.btnImport.FlatAppearance.BorderSize = 2;
+            this.btnImport.FlatAppearance.BorderSize = 3;
             this.btnImport.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnImport.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImport.ForeColor = System.Drawing.Color.White;
-            this.btnImport.Location = new System.Drawing.Point(13, 3);
+            this.btnImport.Location = new System.Drawing.Point(17, 7);
             this.btnImport.Name = "btnImport";
             this.btnImport.Size = new System.Drawing.Size(45, 50);
             this.btnImport.TabIndex = 2;
@@ -263,8 +249,8 @@
             // 
             this.pnlHostList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlHostList.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pnlHostList.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pnlHostList.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlHostList.Controls.Add(this.pbListDel);
             this.pnlHostList.Controls.Add(this.pbListAdd);
             this.pnlHostList.Controls.Add(this.lnkReloadList);
@@ -272,7 +258,7 @@
             this.pnlHostList.Controls.Add(this.lvMappings);
             this.pnlHostList.Location = new System.Drawing.Point(0, 58);
             this.pnlHostList.Name = "pnlHostList";
-            this.pnlHostList.Size = new System.Drawing.Size(525, 448);
+            this.pnlHostList.Size = new System.Drawing.Size(525, 465);
             this.pnlHostList.TabIndex = 8;
             // 
             // pbListDel
@@ -303,12 +289,12 @@
             // 
             this.lnkReloadList.AutoSize = true;
             this.lnkReloadList.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lnkReloadList.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkReloadList.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkReloadList.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.lnkReloadList.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(132)))), ((int)(((byte)(178)))));
-            this.lnkReloadList.Location = new System.Drawing.Point(13, 424);
+            this.lnkReloadList.Location = new System.Drawing.Point(13, 438);
             this.lnkReloadList.Name = "lnkReloadList";
-            this.lnkReloadList.Size = new System.Drawing.Size(122, 14);
+            this.lnkReloadList.Size = new System.Drawing.Size(173, 19);
             this.lnkReloadList.TabIndex = 6;
             this.lnkReloadList.TabStop = true;
             this.lnkReloadList.Text = "Reload from Host file";
@@ -318,12 +304,12 @@
             // 
             this.lnkEditHostText.AutoSize = true;
             this.lnkEditHostText.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lnkEditHostText.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkEditHostText.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkEditHostText.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.lnkEditHostText.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(153)))), ((int)(((byte)(83)))));
-            this.lnkEditHostText.Location = new System.Drawing.Point(378, 424);
+            this.lnkEditHostText.Location = new System.Drawing.Point(320, 438);
             this.lnkEditHostText.Name = "lnkEditHostText";
-            this.lnkEditHostText.Size = new System.Drawing.Size(131, 14);
+            this.lnkEditHostText.Size = new System.Drawing.Size(189, 19);
             this.lnkEditHostText.TabIndex = 5;
             this.lnkEditHostText.TabStop = true;
             this.lnkEditHostText.Text = "Edit hosts as plain text";
@@ -347,7 +333,7 @@
             this.lvMappings.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.lvMappings.Location = new System.Drawing.Point(13, 32);
             this.lvMappings.Name = "lvMappings";
-            this.lvMappings.Size = new System.Drawing.Size(496, 387);
+            this.lvMappings.Size = new System.Drawing.Size(500, 395);
             this.lvMappings.TabIndex = 4;
             this.lvMappings.UseCompatibleStateImageBehavior = false;
             this.lvMappings.View = System.Windows.Forms.View.Details;
@@ -372,6 +358,7 @@
             // 
             this.mnuLineItemMenu.BackColor = System.Drawing.Color.Lavender;
             this.mnuLineItemMenu.Font = new System.Drawing.Font("Verdana", 8F);
+            this.mnuLineItemMenu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnuLineItemMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuCommentItem,
             this.mnuUncommentItem,
@@ -379,13 +366,13 @@
             this.mnuEditItem});
             this.mnuLineItemMenu.Name = "mnuLineItemMenu";
             this.mnuLineItemMenu.ShowImageMargin = false;
-            this.mnuLineItemMenu.Size = new System.Drawing.Size(185, 92);
+            this.mnuLineItemMenu.Size = new System.Drawing.Size(219, 92);
             // 
             // mnuCommentItem
             // 
             this.mnuCommentItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.mnuCommentItem.Name = "mnuCommentItem";
-            this.mnuCommentItem.Size = new System.Drawing.Size(184, 22);
+            this.mnuCommentItem.Size = new System.Drawing.Size(218, 22);
             this.mnuCommentItem.Text = "Comment Mapping(s)";
             this.mnuCommentItem.Click += new System.EventHandler(this.mnuCommentItem_Click);
             // 
@@ -393,38 +380,38 @@
             // 
             this.mnuUncommentItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.mnuUncommentItem.Name = "mnuUncommentItem";
-            this.mnuUncommentItem.Size = new System.Drawing.Size(184, 22);
+            this.mnuUncommentItem.Size = new System.Drawing.Size(218, 22);
             this.mnuUncommentItem.Text = "Uncomment Mapping(s)";
             this.mnuUncommentItem.Click += new System.EventHandler(this.mnuUncommentItem_Click);
             // 
             // mnuAddItem
             // 
             this.mnuAddItem.Name = "mnuAddItem";
-            this.mnuAddItem.Size = new System.Drawing.Size(184, 22);
+            this.mnuAddItem.Size = new System.Drawing.Size(218, 22);
             this.mnuAddItem.Text = "Add Item";
             this.mnuAddItem.Click += new System.EventHandler(this.mnuAddItem_Click);
             // 
             // mnuEditItem
             // 
             this.mnuEditItem.Name = "mnuEditItem";
-            this.mnuEditItem.Size = new System.Drawing.Size(184, 22);
+            this.mnuEditItem.Size = new System.Drawing.Size(218, 22);
             this.mnuEditItem.Text = "Edit Item";
             this.mnuEditItem.Click += new System.EventHandler(this.mnuEditItem_Click);
             // 
             // frmHostFileManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Ivory;
-            this.ClientSize = new System.Drawing.Size(525, 509);
+            this.ClientSize = new System.Drawing.Size(525, 524);
             this.Controls.Add(this.pnlToolBar);
             this.Controls.Add(this.pnlHostList);
             this.Controls.Add(this.pnlHostsText);
             this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmHostFileManager";
+            this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Host File Manager";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
@@ -470,7 +457,6 @@
         private System.Windows.Forms.ToolStripMenuItem mnuUncommentItem;
         private System.Windows.Forms.ToolStripMenuItem mnuAddItem;
         private System.Windows.Forms.ToolStripMenuItem mnuEditItem;
-        private System.Windows.Forms.Button button1;
     }
 }
 

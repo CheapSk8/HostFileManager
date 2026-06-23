@@ -42,5 +42,10 @@ namespace HostManager
             Url = txtUrl.Text.Trim();
             Comment = txtComments.Text.Trim();
         }
+
+        private void btnLocalHost_Click(object sender, EventArgs e)
+        {
+            ipAddress.Text = "127.0.0.1";   // local host IP address
+        }
     }
 }

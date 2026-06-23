@@ -70,9 +70,10 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.MaximumSize = new System.Drawing.Size(700, 800);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.flowLayoutPanel1.MaximumSize = new System.Drawing.Size(933, 985);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(329, 302);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(439, 372);
             this.flowLayoutPanel1.TabIndex = 10;
             this.flowLayoutPanel1.Tag = "static";
             // 
@@ -86,12 +87,12 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.lblMessage);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(0, 0, 0, 10);
-            this.panel1.MaximumSize = new System.Drawing.Size(500, 300);
-            this.panel1.MinimumSize = new System.Drawing.Size(185, 50);
+            this.panel1.Margin = new System.Windows.Forms.Padding(0, 0, 0, 12);
+            this.panel1.MaximumSize = new System.Drawing.Size(667, 369);
+            this.panel1.MinimumSize = new System.Drawing.Size(247, 62);
             this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(5);
-            this.panel1.Size = new System.Drawing.Size(328, 50);
+            this.panel1.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.panel1.Size = new System.Drawing.Size(437, 62);
             this.panel1.TabIndex = 19;
             // 
             // lblMessage
@@ -99,11 +100,11 @@
             this.lblMessage.AutoSize = true;
             this.lblMessage.BackColor = System.Drawing.Color.Transparent;
             this.lblMessage.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblMessage.Location = new System.Drawing.Point(5, 5);
-            this.lblMessage.Margin = new System.Windows.Forms.Padding(5);
-            this.lblMessage.MaximumSize = new System.Drawing.Size(500, 300);
+            this.lblMessage.Location = new System.Drawing.Point(7, 6);
+            this.lblMessage.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.lblMessage.MaximumSize = new System.Drawing.Size(667, 369);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(35, 13);
+            this.lblMessage.Size = new System.Drawing.Size(46, 17);
             this.lblMessage.TabIndex = 0;
             this.lblMessage.Text = "label1";
             // 
@@ -115,12 +116,12 @@
             this.flpAbortRetryIgnore.Controls.Add(this.btnARIRetry);
             this.flpAbortRetryIgnore.Controls.Add(this.btnARIAbort);
             this.flpAbortRetryIgnore.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flpAbortRetryIgnore.Location = new System.Drawing.Point(0, 60);
+            this.flpAbortRetryIgnore.Location = new System.Drawing.Point(0, 74);
             this.flpAbortRetryIgnore.Margin = new System.Windows.Forms.Padding(0);
-            this.flpAbortRetryIgnore.MinimumSize = new System.Drawing.Size(185, 0);
+            this.flpAbortRetryIgnore.MinimumSize = new System.Drawing.Size(247, 0);
             this.flpAbortRetryIgnore.Name = "flpAbortRetryIgnore";
-            this.flpAbortRetryIgnore.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
-            this.flpAbortRetryIgnore.Size = new System.Drawing.Size(328, 35);
+            this.flpAbortRetryIgnore.Padding = new System.Windows.Forms.Padding(0, 0, 7, 0);
+            this.flpAbortRetryIgnore.Size = new System.Drawing.Size(437, 43);
             this.flpAbortRetryIgnore.TabIndex = 11;
             this.flpAbortRetryIgnore.WrapContents = false;
             // 
@@ -129,10 +130,10 @@
             this.btnARIIgnore.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnARIIgnore.BackColor = System.Drawing.Color.Transparent;
             this.btnARIIgnore.DialogResult = System.Windows.Forms.DialogResult.Ignore;
-            this.btnARIIgnore.Location = new System.Drawing.Point(243, 5);
-            this.btnARIIgnore.Margin = new System.Windows.Forms.Padding(5);
+            this.btnARIIgnore.Location = new System.Drawing.Point(323, 6);
+            this.btnARIIgnore.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnARIIgnore.Name = "btnARIIgnore";
-            this.btnARIIgnore.Size = new System.Drawing.Size(75, 25);
+            this.btnARIIgnore.Size = new System.Drawing.Size(100, 31);
             this.btnARIIgnore.TabIndex = 6;
             this.btnARIIgnore.Text = "Ignore";
             this.btnARIIgnore.UseVisualStyleBackColor = false;
@@ -142,10 +143,10 @@
             this.btnARIRetry.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnARIRetry.BackColor = System.Drawing.Color.Transparent;
             this.btnARIRetry.DialogResult = System.Windows.Forms.DialogResult.Retry;
-            this.btnARIRetry.Location = new System.Drawing.Point(158, 5);
-            this.btnARIRetry.Margin = new System.Windows.Forms.Padding(5);
+            this.btnARIRetry.Location = new System.Drawing.Point(209, 6);
+            this.btnARIRetry.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnARIRetry.Name = "btnARIRetry";
-            this.btnARIRetry.Size = new System.Drawing.Size(75, 25);
+            this.btnARIRetry.Size = new System.Drawing.Size(100, 31);
             this.btnARIRetry.TabIndex = 5;
             this.btnARIRetry.Text = "Retry";
             this.btnARIRetry.UseVisualStyleBackColor = false;
@@ -155,10 +156,10 @@
             this.btnARIAbort.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnARIAbort.BackColor = System.Drawing.Color.Transparent;
             this.btnARIAbort.DialogResult = System.Windows.Forms.DialogResult.Abort;
-            this.btnARIAbort.Location = new System.Drawing.Point(73, 5);
-            this.btnARIAbort.Margin = new System.Windows.Forms.Padding(5);
+            this.btnARIAbort.Location = new System.Drawing.Point(95, 6);
+            this.btnARIAbort.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnARIAbort.Name = "btnARIAbort";
-            this.btnARIAbort.Size = new System.Drawing.Size(75, 25);
+            this.btnARIAbort.Size = new System.Drawing.Size(100, 31);
             this.btnARIAbort.TabIndex = 7;
             this.btnARIAbort.Text = "Abort";
             this.btnARIAbort.UseVisualStyleBackColor = false;
@@ -171,12 +172,12 @@
             this.flpYesNoCancel.Controls.Add(this.btnYNCNo);
             this.flpYesNoCancel.Controls.Add(this.btnYNCYes);
             this.flpYesNoCancel.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flpYesNoCancel.Location = new System.Drawing.Point(0, 95);
+            this.flpYesNoCancel.Location = new System.Drawing.Point(0, 117);
             this.flpYesNoCancel.Margin = new System.Windows.Forms.Padding(0);
-            this.flpYesNoCancel.MinimumSize = new System.Drawing.Size(185, 0);
+            this.flpYesNoCancel.MinimumSize = new System.Drawing.Size(247, 0);
             this.flpYesNoCancel.Name = "flpYesNoCancel";
-            this.flpYesNoCancel.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
-            this.flpYesNoCancel.Size = new System.Drawing.Size(328, 35);
+            this.flpYesNoCancel.Padding = new System.Windows.Forms.Padding(0, 0, 7, 0);
+            this.flpYesNoCancel.Size = new System.Drawing.Size(437, 43);
             this.flpYesNoCancel.TabIndex = 12;
             this.flpYesNoCancel.WrapContents = false;
             // 
@@ -185,10 +186,10 @@
             this.btnYNCCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnYNCCancel.BackColor = System.Drawing.Color.Transparent;
             this.btnYNCCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnYNCCancel.Location = new System.Drawing.Point(243, 5);
-            this.btnYNCCancel.Margin = new System.Windows.Forms.Padding(5);
+            this.btnYNCCancel.Location = new System.Drawing.Point(323, 6);
+            this.btnYNCCancel.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnYNCCancel.Name = "btnYNCCancel";
-            this.btnYNCCancel.Size = new System.Drawing.Size(75, 25);
+            this.btnYNCCancel.Size = new System.Drawing.Size(100, 31);
             this.btnYNCCancel.TabIndex = 6;
             this.btnYNCCancel.Text = "Cancel";
             this.btnYNCCancel.UseVisualStyleBackColor = false;
@@ -198,10 +199,10 @@
             this.btnYNCNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnYNCNo.BackColor = System.Drawing.Color.Transparent;
             this.btnYNCNo.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.btnYNCNo.Location = new System.Drawing.Point(158, 5);
-            this.btnYNCNo.Margin = new System.Windows.Forms.Padding(5);
+            this.btnYNCNo.Location = new System.Drawing.Point(209, 6);
+            this.btnYNCNo.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnYNCNo.Name = "btnYNCNo";
-            this.btnYNCNo.Size = new System.Drawing.Size(75, 25);
+            this.btnYNCNo.Size = new System.Drawing.Size(100, 31);
             this.btnYNCNo.TabIndex = 5;
             this.btnYNCNo.Text = "No";
             this.btnYNCNo.UseVisualStyleBackColor = false;
@@ -211,10 +212,10 @@
             this.btnYNCYes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnYNCYes.BackColor = System.Drawing.Color.Transparent;
             this.btnYNCYes.DialogResult = System.Windows.Forms.DialogResult.Yes;
-            this.btnYNCYes.Location = new System.Drawing.Point(73, 5);
-            this.btnYNCYes.Margin = new System.Windows.Forms.Padding(5);
+            this.btnYNCYes.Location = new System.Drawing.Point(95, 6);
+            this.btnYNCYes.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnYNCYes.Name = "btnYNCYes";
-            this.btnYNCYes.Size = new System.Drawing.Size(75, 25);
+            this.btnYNCYes.Size = new System.Drawing.Size(100, 31);
             this.btnYNCYes.TabIndex = 7;
             this.btnYNCYes.Text = "Yes";
             this.btnYNCYes.UseVisualStyleBackColor = false;
@@ -226,12 +227,12 @@
             this.flpOkayCancel.Controls.Add(this.btnOCCancel);
             this.flpOkayCancel.Controls.Add(this.btnOCOk);
             this.flpOkayCancel.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flpOkayCancel.Location = new System.Drawing.Point(0, 130);
+            this.flpOkayCancel.Location = new System.Drawing.Point(0, 160);
             this.flpOkayCancel.Margin = new System.Windows.Forms.Padding(0);
-            this.flpOkayCancel.MinimumSize = new System.Drawing.Size(185, 0);
+            this.flpOkayCancel.MinimumSize = new System.Drawing.Size(247, 0);
             this.flpOkayCancel.Name = "flpOkayCancel";
-            this.flpOkayCancel.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
-            this.flpOkayCancel.Size = new System.Drawing.Size(328, 35);
+            this.flpOkayCancel.Padding = new System.Windows.Forms.Padding(0, 0, 7, 0);
+            this.flpOkayCancel.Size = new System.Drawing.Size(437, 43);
             this.flpOkayCancel.TabIndex = 10;
             this.flpOkayCancel.WrapContents = false;
             // 
@@ -240,10 +241,10 @@
             this.btnOCCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnOCCancel.BackColor = System.Drawing.Color.Transparent;
             this.btnOCCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnOCCancel.Location = new System.Drawing.Point(243, 5);
-            this.btnOCCancel.Margin = new System.Windows.Forms.Padding(5);
+            this.btnOCCancel.Location = new System.Drawing.Point(323, 6);
+            this.btnOCCancel.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnOCCancel.Name = "btnOCCancel";
-            this.btnOCCancel.Size = new System.Drawing.Size(75, 25);
+            this.btnOCCancel.Size = new System.Drawing.Size(100, 31);
             this.btnOCCancel.TabIndex = 6;
             this.btnOCCancel.Text = "Cancel";
             this.btnOCCancel.UseVisualStyleBackColor = false;
@@ -253,10 +254,10 @@
             this.btnOCOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnOCOk.BackColor = System.Drawing.Color.Transparent;
             this.btnOCOk.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnOCOk.Location = new System.Drawing.Point(158, 5);
-            this.btnOCOk.Margin = new System.Windows.Forms.Padding(5);
+            this.btnOCOk.Location = new System.Drawing.Point(209, 6);
+            this.btnOCOk.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnOCOk.Name = "btnOCOk";
-            this.btnOCOk.Size = new System.Drawing.Size(75, 25);
+            this.btnOCOk.Size = new System.Drawing.Size(100, 31);
             this.btnOCOk.TabIndex = 5;
             this.btnOCOk.Text = "OK";
             this.btnOCOk.UseVisualStyleBackColor = false;
@@ -268,12 +269,12 @@
             this.flpRetryCancel.Controls.Add(this.btnARCCancel);
             this.flpRetryCancel.Controls.Add(this.btnARCRetry);
             this.flpRetryCancel.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flpRetryCancel.Location = new System.Drawing.Point(0, 165);
+            this.flpRetryCancel.Location = new System.Drawing.Point(0, 203);
             this.flpRetryCancel.Margin = new System.Windows.Forms.Padding(0);
-            this.flpRetryCancel.MinimumSize = new System.Drawing.Size(185, 0);
+            this.flpRetryCancel.MinimumSize = new System.Drawing.Size(247, 0);
             this.flpRetryCancel.Name = "flpRetryCancel";
-            this.flpRetryCancel.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
-            this.flpRetryCancel.Size = new System.Drawing.Size(328, 35);
+            this.flpRetryCancel.Padding = new System.Windows.Forms.Padding(0, 0, 7, 0);
+            this.flpRetryCancel.Size = new System.Drawing.Size(437, 43);
             this.flpRetryCancel.TabIndex = 16;
             this.flpRetryCancel.WrapContents = false;
             // 
@@ -282,10 +283,10 @@
             this.btnARCCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnARCCancel.BackColor = System.Drawing.Color.Transparent;
             this.btnARCCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnARCCancel.Location = new System.Drawing.Point(243, 5);
-            this.btnARCCancel.Margin = new System.Windows.Forms.Padding(5);
+            this.btnARCCancel.Location = new System.Drawing.Point(323, 6);
+            this.btnARCCancel.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnARCCancel.Name = "btnARCCancel";
-            this.btnARCCancel.Size = new System.Drawing.Size(75, 25);
+            this.btnARCCancel.Size = new System.Drawing.Size(100, 31);
             this.btnARCCancel.TabIndex = 4;
             this.btnARCCancel.Text = "Cancel";
             this.btnARCCancel.UseVisualStyleBackColor = false;
@@ -295,10 +296,10 @@
             this.btnARCRetry.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnARCRetry.BackColor = System.Drawing.Color.Transparent;
             this.btnARCRetry.DialogResult = System.Windows.Forms.DialogResult.Retry;
-            this.btnARCRetry.Location = new System.Drawing.Point(158, 5);
-            this.btnARCRetry.Margin = new System.Windows.Forms.Padding(5);
+            this.btnARCRetry.Location = new System.Drawing.Point(209, 6);
+            this.btnARCRetry.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnARCRetry.Name = "btnARCRetry";
-            this.btnARCRetry.Size = new System.Drawing.Size(75, 25);
+            this.btnARCRetry.Size = new System.Drawing.Size(100, 31);
             this.btnARCRetry.TabIndex = 3;
             this.btnARCRetry.Text = "Retry";
             this.btnARCRetry.UseVisualStyleBackColor = false;
@@ -306,37 +307,39 @@
             // pnlRemember
             // 
             this.pnlRemember.Controls.Add(this.chkRemember);
-            this.pnlRemember.Location = new System.Drawing.Point(0, 200);
+            this.pnlRemember.Location = new System.Drawing.Point(0, 246);
             this.pnlRemember.Margin = new System.Windows.Forms.Padding(0);
-            this.pnlRemember.MinimumSize = new System.Drawing.Size(185, 0);
+            this.pnlRemember.MinimumSize = new System.Drawing.Size(247, 0);
             this.pnlRemember.Name = "pnlRemember";
-            this.pnlRemember.Size = new System.Drawing.Size(328, 23);
+            this.pnlRemember.Size = new System.Drawing.Size(437, 28);
             this.pnlRemember.TabIndex = 22;
             // 
             // chkRemember
             // 
             this.chkRemember.BackColor = System.Drawing.Color.Transparent;
-            this.chkRemember.Location = new System.Drawing.Point(3, 3);
+            this.chkRemember.Location = new System.Drawing.Point(4, 4);
+            this.chkRemember.Margin = new System.Windows.Forms.Padding(4);
             this.chkRemember.Name = "chkRemember";
-            this.chkRemember.Size = new System.Drawing.Size(147, 17);
+            this.chkRemember.Size = new System.Drawing.Size(196, 21);
             this.chkRemember.TabIndex = 17;
             this.chkRemember.Text = "Remember my preference";
             this.chkRemember.UseVisualStyleBackColor = false;
             // 
             // MessageBoxForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(329, 302);
+            this.ClientSize = new System.Drawing.Size(439, 372);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(700, 800);
+            this.MaximumSize = new System.Drawing.Size(927, 974);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(200, 120);
+            this.MinimumSize = new System.Drawing.Size(261, 137);
             this.Name = "MessageBoxForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "MessageBoxForm";
